@@ -8,6 +8,7 @@ public class HtmlFormatHelperTest
     [TestMethod]
     [DataRow("coucou")]
     [DataRow("hello")]
+    [DataRow("hey")]
     public void Test_GetBoldFormat(string text)
     {
         var htmlFormatHelper = new HtmlFormatHelper();
